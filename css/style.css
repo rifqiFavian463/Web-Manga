@@ -65,6 +65,7 @@
 }
 .chapter-list ul li {
   margin-top: 12px;
+  cursor: pointer;
 }
 .swiper-button-next {
   --swiper-navigation-size: 35px;
