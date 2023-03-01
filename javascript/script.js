@@ -46,7 +46,7 @@ let popularComicRender = () => {
                             <h5 class="card-title">Title : ${comic.title}</h5>
                             <h6>Type : ${comic.type}</h6>
                             <p class="card-text">Deskripsi : ${comic.desc}</p>
-                            <a href="#" class="btn btn-primary button-info" data-endpoint="${comic.endpoint}">
+                            <a href="index2.html" target="_blank" class="btn btn-primary button-info" data-endpoint="${comic.endpoint}">
                               Baca ngabs
                             </a>
                           </div>
@@ -89,7 +89,7 @@ let renderComicQuery = (titleQuery) => {
                                 <h5 class="card-title">Title : ${queryC.title}</h5>
                                 <h6>Type : ${queryC.type}</h6>
                                 <p class="card-text">Deskripsi : ${queryC.desc}</p>
-                                <a href="#" class="btn btn-primary button-info" data-endpoint="${queryC.endpoint}">
+                                <a href="index2.html" target="_blank" class="btn btn-primary button-info" data-endpoint="${queryC.endpoint}">
                                   Baca ngabs
                                 </a>
                               </div>
